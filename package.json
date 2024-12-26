@@ -1,4 +1,5 @@
 {
+  "homepage": "https://tfkanhaiya.github.io/kanhaiya-dev",
   "name": "my-portfolio",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "@remixicon/react": "^4.4.0",

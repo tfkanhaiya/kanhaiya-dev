@@ -6,6 +6,7 @@ import project5 from "../assets/project5.webp";
 import project6 from "../assets/project6.webp";
 import personImage from "../assets/testimonial.webp";
 
+
 import {
   RiHtml5Line,
   RiCss3Line,
