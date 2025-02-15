@@ -18,6 +18,9 @@ import {
   RiDatabaseLine,
   RiCodeSSlashLine,
   RiGitBranchLine,
+  RiGithubLine,
+  RiBrushLine,
+  RiBrainLine,
 } from "@remixicon/react";
 
 export const NAVIGATION_LINKS = [
@@ -32,7 +35,7 @@ export const PROFILE = {
   name: "Kanhaiya Kumar",
   role: "Frontend Developer",
   subheading:
-    "Hey there, I'm a frontend developer with internship experience, specializing in the React, and I create efficient web applications using React, Next.js, and TypeScript.",
+    "Technology is the art of turning ideas into reality, where code shapes the future and innovation drives progress. Build, create, and inspire—one line at a time. 🚀",
 };
 
 export const PROJECTS = [
@@ -134,25 +137,41 @@ export const SKILLS = [
     icon: <RiCodeSSlashLine className="text-teal-400" />,
   },
   {
-    name: "GraphQL",
-    icon: <RiGitBranchLine className="text-pink-400" />,
-  },
-  {
     name: "MySQL",
-    icon: <RiDatabaseLine className="text-blue-600" />, // Change icon if needed
+    icon: <RiDatabaseLine className="text-blue-600" />,
   },
   {
     name: "Next.js",
-    icon: <RiReactjsLine className="text-gray-600" />, // Change icon if needed
+    icon: <RiReactjsLine className="text-gray-600" />, 
   },
   {
     name: "Appwrite",
-    icon: <RiCodeSSlashLine className="text-purple-500" />, // Change icon if needed
+    icon: <RiCodeSSlashLine className="text-purple-500" />, 
   },
   {
     name: "TypeScript",
-    icon: <RiJavascriptLine className="text-blue-700" />, // Change icon if needed
+    icon: <RiJavascriptLine className="text-blue-700" />, 
   },
+  {
+    name: "VS Code",
+    icon: <RiCodeSSlashLine className="text-darkblue-500" />, 
+  },
+  {
+    name: "Git",
+    icon: <RiGitBranchLine className="text-orange-500" />, 
+  },
+  {
+    name: "GitHub",
+    icon: <RiGithubLine className="text-black" />, 
+  },
+  {
+    name: "Canva",
+    icon: <RiBrushLine className="text-pink-500" />,
+  }, 
+  {
+    name: "Gen AI",
+    icon: <RiBrainLine className="text-indigo-500" />,
+  },     
 ];
 
 export const EXPERIENCES = [
@@ -190,32 +209,40 @@ export const EXPERIENCES = [
   // },
 ];
 
-export const EDUCATION = [
-  {
-    id: 1,
-    degree: "Bachelor of Technology with Honors in Computer Science & Engineering",
-    institution: "NSHM Knowledge Campus Durgapur",
-    duration: "2020-2024",
-    description:
-      "Graduated with honors in Computer Science, focusing on algorithms, data structures, and web development.",
-  },
-  {
-    id: 2,
-    degree: "Introduction to Software Product Management",
-    institution: "University of Alberta",
-    duration: "2022",
-    description:
-      "The Introduction to Software Product Management course covers essential skills for managing software products effectively.",
-  },
-  {
-    id: 3,
-    degree: "Certified in Cloud Core",
-    institution: "IBM",
-    duration: "2023",
-    description:
-      "Earned a certification in Cloud Core, demonstrating expertise in cloud technologies.",
-  },
-];
+export const ABOUT_ME = {
+  name: "Kanhaiya Kumar",
+  // profession: "Frontend Developer",
+  description: "Hey there👋🏼, I'm a frontend developer with a B.Tech in Computer Science and Engineering from NSHM Knowledge Campus, Durgapur. I specialize in building scalable web applications using React, Next.js, and backend technologies. With experience in AI-powered applications and modern web frameworks, I am passionate about creating innovative solutions.",
+  location: "📍 Durgapur, West Bengal",
+};
+
+
+// export const EDUCATION = [
+//   {
+//     id: 1,
+//     degree: "Bachelor of Technology with Honors in Computer Science & Engineering",
+//     institution: "NSHM Knowledge Campus Durgapur",
+//     duration: "2020-2024",
+//     description:
+//       "Graduated with honors in Computer Science, focusing on algorithms, data structures, and web development.",
+//   },
+//   {
+//     id: 2,
+//     degree: "Introduction to Software Product Management",
+//     institution: "University of Alberta",
+//     duration: "2022",
+//     description:
+//       "The Introduction to Software Product Management course covers essential skills for managing software products effectively.",
+//   },
+//   {
+//     id: 3,
+//     degree: "Certified in Cloud Core",
+//     institution: "IBM",
+//     duration: "2023",
+//     description:
+//       "Earned a certification in Cloud Core, demonstrating expertise in cloud technologies.",
+//   },
+// ];
 
 // export const TESTIMONIAL = {
 //   name: "Sarah Doe",

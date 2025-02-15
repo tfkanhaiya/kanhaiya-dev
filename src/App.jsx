@@ -1,5 +1,5 @@
+import AboutMe from "./components/AboutMe"
 import Contact from "./components/Contact"
-import Education from "./components/Education"
 import Experience from "./components/Experience"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
@@ -13,10 +13,10 @@ const App = () => {
     <div className="relative z-10">
       <Navbar />
       <Hero />
+      <AboutMe />
       <Projects />
       <Skills />
       <Experience />
-      <Education />
       <Contact />
     </div>
    </main>

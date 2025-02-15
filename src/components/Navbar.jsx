@@ -2,10 +2,10 @@ import { useState } from "react";
 import { RiCloseLine, RiMenu3Line } from "react-icons/ri";
 
 const NAVIGATION_LINKS = [
+  { label: "AboutMe", href: "#aboutme" },
   { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
   { label: "Work Experience", href: "#work" },
-  { label: "Education", href: "#education" },
   { label: "Contact", href: "#contact" },
 ];
 
